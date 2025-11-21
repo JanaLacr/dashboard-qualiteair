@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from math import pi
 from matplotlib.cm import get_cmap
-from sklearn.linear_model import LinearRegression
+
 
 # ==========================
 # Configuration de la page
@@ -179,4 +179,5 @@ elif option == "Corrélations":
 # ----------------------------
 st.subheader("📄 Aperçu des données brutes")
 st.dataframe(df)
+
 
